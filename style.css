@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    
+    border: border-box;
+    
+}
+main{
+    color: #131921;
+    background-color: RGBA(204, 204, 204,0.2)	;
+}
+div{
+    text-align:start;
+    
+}
+a{
+    color: white;
+    border: none;
+  
+}
+.border{
+    border: 1.5px solid transparent;
+    border-radius: 5px;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.search_nav{
+    border: 2px solid transparent;
+
+}
+.search_nav:active{
+   border: 2px solid orange;
+}
+.search_nav:target{
+    border: 2px solid orange;
+}
+#navbar{
+    color: white;
+
+}
+.navbar{
+    margin: 0;
+    height: 60px;
+    width: auto;
+    font-size: 14px;
+    background-color: #131921;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+}
+.nav_1{
+    height: 56px;
+    width: 225px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#amazon_logo{
+    height: 35px;
+    width: 100px;
+    padding: 10px;
+
+}
+#amazon-logo{
+    height: 30px;
+    width: 100px;
+    padding-top: 5px;
+
+
+}
+#Deliver_font{
+    height: 40px;
+    width: 85px;
+    padding: 15px 5px 0px 5px;
+}
+#loc-logo{
+    position: relative;
+    top: 15px;
+    left: -4px;
+}
+.location_text{
+    width: 71px;
+    color: #cccccc;
+    position: relative;
+    top: -18px;
+    left: 10px;
+}
+b.bigfont_ind{
+    font-size: 16px;
+    color: white;
+}
+#search_nav{
+    height: 40px;
+    width:710px;
+    margin-right: 25px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.search_hov{
+    border: 2px solid transparent;
+    border-radius: 7px 
+}
+.search_hov:hover{
+    border: 2px solid orange;
+}
+#dropdown{
+    background-color: #e6e6e6;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+}
+#searchbar{
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+
+}
+.search_icon{
+    background-color: #febd68;
+    color: #0f1111;
+    border-radius: 0px 5px 5px 0px;
+    height: 40px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+.nav_2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#Lang_bar{
+    height: 40px;
+    width: 50px;
+    padding: 7px;
+    position: relative;
+    right: 5px;
+    text-align: end;
+    padding: 15px 5px 0px 0px;
+    
+
+
+}
+.Lang_bar{
+    position: relative;
+    top: 16px;
+  
+}
+#ind-flag{
+    height: 10px;
+    width: 10px;
+    margin-right: 3px;
+}
+#Sign_in_bar{
+    height: 40px;
+    width: 125px;
+    padding: 15px 0px 0px 5px;
+}
+#return_bar{
+    height: 40px;
+    width: 70px;
+    padding: 15px 5px 0px 5px;
+}
+#cart_bar{
+    height: 40px;
+    width: 85px;
+    padding: 15px 5px 0px 5px;
+    margin-right: 10px;
+    display: flex;
+    justify-content:space-between ;
+}
+a.cart_bar{
+    position: relative;
+    top: 10px;
+    font-size: 20px;
+
+}
+.cart_font{
+    font-size: 14px;
+}
+#nav-2{
+    height: 35px;
+    width: auto;
+    background-color: #232f3e;
+    color:white;
+    font-weight: 600;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: static;
+    
+}
+.nav_2_txt_size{
+    height: 13px;
+    width: auto;
+    padding: 10px;
+}
+#navad{
+    width: 300px;
+}
+#mbar{
+    height:15px;
+    padding-left: 15px;
+}
+#hero{
+    width: 100%;
+    height: 600px;
+    background-image:  url("heroimage1.jpg");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    float: none;
+}
+#layout{
+    width: 100%;
+    height: 510px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+    position:relative;
+    top: -235px;
+    
+   
+
+}
+div.layoutinner{
+    height: 350px;
+    width: 300px;
+    margin: 12px;
+    background-color: #ffffff;
+
+    
+   
+
+}
+#layout_inner_img_div1{
+    width:auto;
+    height: auto;
+    font-size: 21px;
+    padding-left:10px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-right: 5px;
+    text-align: start;
+}
+#layout_inner_img_div2{
+    width:auto;
+    height: 270px;
+    font-size: 23px;
+    padding-left:10px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+
+}
+#div_img{
+    width: 270px;
+    height: 270px;
+    padding: 5px;
+}
+#Explore{
+    color: black;
+    text-decoration: none;
+    margin:20px;
+}
+
+#footer1{
+    height: 35px;
+    width: auto;
+    background-color: #37475A;
+    color: white;
+    text-align: center;
+    padding-top:20px;
+}
+#footer2-outer{
+    height:300px;
+    width:auto;
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-top: 30px;
+
+
+}
+ul,li{
+    font-size: 14px;;
+    list-style: none;
+    margin-top: 10px;
+}
+
+ #footer3-outer{
+    height:70px;
+    width:auto;
+    display:flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: #232f3e;
+    padding: 30px;
+    position: static;
+
+}
+#footer3-inner1{
+    padding-top: 10px;
+    margin-top: 0;
+}
+#footimg{
+
+    width: 100px;
+    height: 30px;
+    padding-right: 50px;
+}
+#nav-lang{
+    width:auto;
+    height: auto;
+}
+
+#footer4{
+    margin: 0;
+    height:70px;
+    width:100%;
+    background-color: #232f3e;
+    color: white;
+    position: static;
+
+}
+ul.footerlist{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    justify-content: center;
+    margin-top: 0;
+    text-indent: 20px;
+}
+#footer4-inner{
+    width: 100%;
+    display: inline-flex;
+    text-indent: 30px;
+    margin-top: 20px;
+}
+    
+#footer5{
+    color: white;
+    background-color: #131a22;
+    height: 200px;;
+    width:auto;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 17px !important;
+    vertical-align: top;
+    text-align: left;
+    line-height: 115%;
+
+}
+#footer6{
+    color: white;
+    background-color: #131a22;
+    display:flex;
+    justify-content: space-evenly;
+    height:60px;
+    width:auto;
+
+}
+#footer6-inner{
+    display: flex;
+}
+#footer6-inner2{
+    padding-left: 25px;
+
+}

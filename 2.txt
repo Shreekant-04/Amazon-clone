@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+    font-family: typography;
+}
+div{
+    height: 50px;
+    width:100px;
+    border:2px solid black;
+   
+}
+.navbar{
+    height:60px;
+    width:auto;
+    background-color: #131921;
+    width:auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+#div1{
+    
+}
+.amazon-logo{
+    width: 100px;
+    padding-top: 10px;
+}
+#logo-in{
+    font-size:20px;
+    position: absolute;
+    top: 13px;
+    left:102px
+}
+#div2{
+    position: absolute;
+}
