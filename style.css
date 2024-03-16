@@ -51,7 +51,7 @@ a{
     color: white;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
     position: sticky;
     top: 0;
@@ -179,8 +179,8 @@ b.bigfont_ind{
 }
 #cart_bar{
     height: 40px;
-    width: 85px;
-    padding: 15px 5px 0px 5px;
+    width: 75px;
+    padding: 12px 5px 3px 5px;
     margin-right: 10px;
     display: flex;
     justify-content:space-between ;
