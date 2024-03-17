@@ -429,13 +429,6 @@ ul.footerlist{
     #Lang_bar{
         display:none;
     }
-    #search_nav{
-        order: 2;
-        width: 100%;
-    }
-    
-}
-@media only screen and (max-width:540px) {
     #Sign_in_bar{
         display:none;
     }
@@ -445,10 +438,19 @@ ul.footerlist{
     }
     
 }
-@media only screen and (max-width:430px) {
+@media only screen and (max-width:540px) {
+    
+    #search_nav{
+        order: 2;
+        width: 100%;
+    }
     #return_bar{
         display:none;
     }
+    
+}
+@media only screen and (max-width:430px) {
+    
     #Deliver_font{
         display:none;
     }
