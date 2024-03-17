@@ -208,7 +208,7 @@ a.cart_bar{
 .nav_2_txt{
     height: 13px;
     width: auto;
-    padding: 10px;
+    padding: 10px 10px 10px 5px;
 
 }
 .nav_2_txt_size{
@@ -221,7 +221,6 @@ a.cart_bar{
 }
 #mbar{
     height:15px;
-    padding-left: 15px;
 }
 #hero{
     width: 100%;
@@ -473,6 +472,9 @@ ul.footerlist{
     #search_nav{
         order: 2;
         width: 100%;
+    }
+    .nav_2_txt{
+        width: 300px;
     }
     
 }
