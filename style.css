@@ -229,16 +229,17 @@ a.cart_bar{
     background-position:center;
     background-repeat:no-repeat;
     background-size:cover;
-    float: none;
+    position:static;
+
 }
 #layout{
     width: 100%;
-    height: 510px;
+    height: 490px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap:wrap;
     position:relative;
-    top: -235px;
+    top: -260px; 
     
    
 
@@ -276,6 +277,7 @@ div.layoutinner{
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
+    image-rendering: auto;
 
 
 }
@@ -289,7 +291,6 @@ div.layoutinner{
     text-decoration: none;
     margin:20px;
 }
-
 #footer1{
     height: 35px;
     width: auto;
@@ -396,10 +397,18 @@ ul.footerlist{
     padding-left: 25px;
 
 }
-@media only screen and (max-width:1326px ) {
-    body{
-        background-color: aqua;
+@media only screen and (min-width:1620px ) {
+    #layout{
+        height: 385px;
+        overflow: hidden;
+        top: -150px;
     }
+    #footer1{
+        margin-top: -9%;
+    }
+
+}
+@media only screen and (max-width:1326px ) {
     .navbar{
         height: 120px;
     }
@@ -414,6 +423,9 @@ ul.footerlist{
         order: 2;
         width: 100%;
     }
+    #Lang_bar{
+        display:none;
+    }
     #nav-2{
         height: 40px;
         font-size: 14px;
@@ -422,18 +434,40 @@ ul.footerlist{
     .nav_2_txt_size{
         display: none;
     }
-
-}
-@media only screen and (max-width:600px) {
-    #Lang_bar{
-        display:none;
+    #hero{
+        height: 400px;
     }
+    #layout{
+        height: 755px;
+        overflow: hidden;
+        top: -150px;
+    }
+    #footer1{
+        margin-top: -10%;
+    }
+    
+}
+
+
+@media only screen and (max-width:647px) {
+    
     #Sign_in_bar{
         display:none;
     }
     #search_nav{
         order: 2;
         width: 100%;
+    }
+    #hero{
+        height: 350px;
+    }
+    #layout{
+        height: 1878px;
+        overflow: hidden;
+        top: -150px;
+    }
+    #footer1{
+        margin-top: -20%;
     }
     
 }
@@ -446,6 +480,15 @@ ul.footerlist{
     #return_bar{
         display:none;
     }
+    #layout{
+        height: 1878px;
+        overflow: hidden;
+        top: -150px;
+    }
+    #footer1{
+        margin-top: -25%;
+    }
+
     
 }
 @media only screen and (max-width:430px) {
@@ -460,9 +503,20 @@ ul.footerlist{
         order: 2;
         width: 100%;
     }
+    #hero{
+        height: 300px;
+    }
+    #layout{
+        height: 1878px;
+        overflow: hidden;
+        top: -150px;
+    }
+    #footer1{
+        margin-top: -35%;
+    }
     
 }
-@media only screen and (max-width:375px) {
+@media only screen and (max-width:320px) {
     .navbar{
         justify-content:center;
     }
@@ -475,7 +529,8 @@ ul.footerlist{
     }
     .nav_2_txt{
         width: 300px;
+    } 
+    #footer1{
+        margin-top: -50%;
     }
-    
 }
-   
